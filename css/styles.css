@@ -2,3 +2,16 @@
    height: 20em;
    width: 25em;
  }
+
+.intro-text {
+  color: White;
+}
+
+.iframe {
+  text-align: center;
+  opacity: 1;
+}
+
+.foot {
+  font-size: 1em;
+}
