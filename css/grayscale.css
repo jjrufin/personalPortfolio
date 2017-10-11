@@ -137,7 +137,7 @@ a:focus {
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
-  font-size: 18px;
+  font-size: 8em;
 }
 .intro .intro-body .intro-text {
   padding-top: 10px;
@@ -148,9 +148,9 @@ a:focus {
     height: 100%;
     padding: 0;
   }
-  .intro .intro-body .brand-heading {
+  /*.intro .intro-body .brand-heading {
     font-size: 100px;
-  }
+  }*/
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
