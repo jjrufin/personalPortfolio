@@ -10,11 +10,12 @@ nav{}
 #nav li:last-of-type>a{padding-right:0}
 #nav a:hover{text-decoration:none}
 /* Slider */
-#slider{position:relative}
-.slider-caption{position:absolute;top:190px;left:0;right:0}
-.slider-caption h1{color:#fff;font-family:'Raleway',sans-serif;font-size:48px;text-shadow: 0px 3px 1.8px rgba(0, 0, 0, 0.35);text-transform:uppercase;font-weight:700;line-height:1.2;letter-spacing:.1em}
+#slider{position:relative;height:555px}
+.bx-viewport,.bx-wrapper{height:100%}
 .bx-wrapper{position:relative}
 .bx-wrapper:after{content:'';background:url(../images/heroshadow.png)center center repeat-x;background-size:cover;position:absolute;top:0;left:0;bottom:0;right:0}
+.slider-caption{position:absolute;top:190px;left:0;right:0}
+.slider-caption h1{color:#fff;font-family:'Raleway',sans-serif;font-size:48px;text-shadow: 0px 3px 1.8px rgba(0, 0, 0, 0.35);text-transform:uppercase;font-weight:700;line-height:1.2;letter-spacing:.1em}
 #slider img{width:100%}
 /* .bx-viewport{height:555px!important} */
 .bx-wrapper{border:none;box-shadow:none}
