@@ -11,7 +11,7 @@ nav{}
 #nav a:hover{text-decoration:none}
 /* Slider */
 #slider{position:relative;height:555px}
-.bx-viewport,.bx-wrapper{height:100%}
+.bx-viewport,.bx-wrapper{height:100%!important}
 .bx-wrapper{position:relative}
 .bx-wrapper:after{content:'';background:url(../images/heroshadow.png)center center repeat-x;background-size:cover;position:absolute;top:0;left:0;bottom:0;right:0}
 .slider-caption{position:absolute;top:190px;left:0;right:0}
