@@ -1,0 +1,43 @@
+.container{width:1200px;max-width:100%}
+/* Header */
+header{position:absolute;top:0;left:0;right:0;z-index:20}
+#logo{margin:0;text-decoration:none;display:inline-block;padding:30px 0;color:#fff;text-transform:uppercase;font-family:'Roboto Condensed',sans-serif;font-weight:700;font-size:22px;letter-spacing:.1em}
+#logo:hover{text-decoration:none}
+nav{}
+#nav{display:block;margin:0;padding:0}
+#nav li{display:inline-block}
+#nav a{display:block;text-transform:uppercase;color:#fff;font-weight:600;font-family:'Open Sans',sans-serif;padding:45px 15px;font-size:18px;line-height:1}
+#nav li:last-of-type>a{padding-right:0}
+#nav a:hover{text-decoration:none}
+/* Slider */
+#slider{position:relative}
+.slider-caption{position:absolute;top:190px;left:0;right:0}
+.slider-caption h1{color:#fff;font-family:'Raleway',sans-serif;font-size:48px;text-shadow: 0px 3px 1.8px rgba(0, 0, 0, 0.35);text-transform:uppercase;font-weight:700;line-height:1.2;letter-spacing:.1em}
+.bx-wrapper{position:relative}
+.bx-wrapper:after{content:'';background:url(../images/heroshadow.png)center center repeat-x;background-size:cover;position:absolute;top:0;left:0;bottom:0;right:0}
+#slider img{width:100%}
+/* .bx-viewport{height:555px!important} */
+.bx-wrapper{border:none;box-shadow:none}
+.bx-controls{display:none}
+/* Main */
+#about-wrap{background:#e4e1e1;padding:72px 0 46px}
+.section-title{font-size:40px;text-transform:uppercase;letter-spacing:.1em;font-weight:700;margin:0;padding-bottom:35px;font-family:'Roboto Condensed',sans-serif}
+.caption{text-align:center;font-size:22px;letter-spacing:.1em;font-weight:600;line-height:1.45;color:#000}
+#portfolio-wrap{background:#131247;padding:72px 0 136px;position:relative}
+#portfolio-wrap .section-title,#portfolio-wrap .caption{color:#fff}
+.portfolio{position:absolute;top:214px;left:0;right:0}
+.portfolio-item{display:block;height:390px;border-radius:4px;text-decoration:none;color:#fff;position:relative;border:2px solid #fff;box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.35)}
+.portfolio-item:hover{text-decoration:none;color:#fff}
+.portfolio-item:after{content:'';background:url(../images/portfolioshadow.png)center center repeat-x;position:absolute;top:0;bottom:0;left:0;right:0;transition:all .3s ease}
+.portfolio-item:hover:after{opacity:.5}
+.portfolio-item span{display:block;text-align:center;font-family:'Roboto Condensed',sans-serif;letter-spacing:.1em;font-weight:700;line-height:1.45;font-size:22px;position:absolute;top:42%;left:0;right:0;z-index:20}
+#contact-wrap{margin-top:346px;padding-bottom:74px}
+.message-me{margin-top:50px;display:inline-block;background:#2b29a3;color:#fff;font-family:'Roboto Condensed',sans-serif;font-size:18px;letter-spacing:.1em;padding:5px 40px 5px 76px;position:relative}
+.message-me:after{content:url(../images/message.png);position:absolute;top:8px;left:40px}
+.message-me:hover{color:#fff}
+/* Footer */
+footer{background:#131247;padding:20px 0}
+footer p{margin:0;color:#fff;font-family:'Open Sans',sans-serif;font-size:14px}
+#copyright{padding-top:15px}
+.social-media a{color:#fff;font-size:18px;display:inline-block;margin-left:5px;border:1px solid #fff;border-radius:50%;height:45px;width:45px;text-align:center;line-height:42px;transition:all .2s ease}
+.social-media a:hover{background:#fff;color:#131247}
