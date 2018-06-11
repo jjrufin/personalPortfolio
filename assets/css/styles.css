@@ -9,6 +9,7 @@ nav{display:none}
 #nav a{display:block;text-transform:uppercase;color:#fff;font-weight:600;font-family:'Open Sans',sans-serif;padding:45px 15px;font-size:18px;line-height:1}
 #nav li:last-of-type>a{padding-right:0}
 #nav a:hover{text-decoration:none}
+#say-hi{background:#131247;margin:30px 0;color:#fff;border-radius:20px;letter-spacing:.1em;font-family:'Open Sans',sans-serif}
 /* Slider */
 #slider{position:relative;height:555px}
 .bx-viewport,.bx-wrapper,ul.bxslider,.bxslider li,.bxslider img{height:100%!important}
@@ -23,7 +24,7 @@ nav{display:none}
 /* Main */
 #about-wrap{background:#e4e1e1;padding:72px 0 46px}
 .section-title{font-size:40px;text-transform:uppercase;letter-spacing:.1em;font-weight:700;margin:0;padding-bottom:35px;font-family:'Roboto Condensed',sans-serif}
-.caption{text-align:center;font-size:22px;letter-spacing:.1em;font-weight:600;line-height:1.45;color:#000}
+.caption{text-align:center;font-size:22px;letter-spacing:.1em;font-weight:600;line-height:1.45;color:#000;font-family:'Open Sans',sans-serif}
 #portfolio-wrap{background:#131247;padding:72px 0 136px;position:relative}
 #portfolio-wrap .section-title,#portfolio-wrap .caption{color:#fff}
 .portfolio{position:absolute;top:214px;left:0;right:0}
