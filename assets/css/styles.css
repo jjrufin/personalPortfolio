@@ -9,7 +9,7 @@ nav{display:none}
 #nav a{display:block;text-transform:uppercase;color:#fff;font-weight:600;font-family:'Open Sans',sans-serif;padding:45px 15px;font-size:18px;line-height:1}
 #nav li:last-of-type>a{padding-right:0}
 #nav a:hover{text-decoration:none}
-#say-hi{background:#131247;margin:23px 0;color:#fff;border-radius:20px;letter-spacing:.1em;font-family:'Open Sans',sans-serif;padding:7px 40px}
+#say-hi{background:#131247;margin:25px 0;color:#fff;border-radius:20px;letter-spacing:.1em;font-family:'Open Sans',sans-serif;padding:7px 40px}
 /* Slider */
 #slider{position:relative;height:555px}
 .bx-viewport,.bx-wrapper,ul.bxslider,.bxslider li,.bxslider img{height:100%!important}
